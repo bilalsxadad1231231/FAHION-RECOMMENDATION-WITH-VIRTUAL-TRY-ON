@@ -55,11 +55,6 @@ For testing purposes, two dataset options are available:
    [Small Testing Dataset](https://drive.google.com/drive/folders/0B8kXrnobEVh9flBkdnNYR3V5dTNKQmFWNURXMUExZ0lFcngxeGI1WkdLT3p5Z1h0OTc2MjQ?resourcekey=0-l_xMCXpXAg7uU5xMZYuKXA)
 
 Both datasets contain a variety of clothing items that can be used to test the recommendation and virtual try-on functionality.
-
-## DEMO IMAGES
-![Recommended Dress](https://github.com/bilalsxadad1231231/FAHION-RECOMMENDATION-WITH-VIRTUAL-TRY-ON/blob/main/Pictures/RECOMMEND_DRESS.jpg)
-
-![Virtual Try-On Result](https://github.com/bilalsxadad1231231/FAHION-RECOMMENDATION-WITH-VIRTUAL-TRY-ON/blob/main/Pictures/TRY-ON.jpg)
 ## Pretrained Networks
 
 If you’d like to use the pretrained weights for the model, they are available for download. You can find the pretrained weights at the following link:  
@@ -94,3 +89,8 @@ The code and pretrained weights for the virtual try-on model used in this projec
 
 For more information and to explore the official implementation, please check out the original repository here:  
 [VITON-HD Official Repository](https://github.com/shadow2496/VITON-HD)
+
+## DEMO IMAGES
+![Recommended Dress](https://github.com/bilalsxadad1231231/FAHION-RECOMMENDATION-WITH-VIRTUAL-TRY-ON/blob/main/Pictures/RECOMMEND_DRESS.jpg)
+
+![Virtual Try-On Result](https://github.com/bilalsxadad1231231/FAHION-RECOMMENDATION-WITH-VIRTUAL-TRY-ON/blob/main/Pictures/TRY-ON.jpg)

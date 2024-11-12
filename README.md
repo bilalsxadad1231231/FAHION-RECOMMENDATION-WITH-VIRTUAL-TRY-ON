@@ -52,7 +52,37 @@ For testing purposes, two dataset options are available:
 
 2. **Small Testing Dataset**:  
    If you prefer a smaller dataset for quick testing, use the link below:  
-   [Small Testing Dataset](https://drive.google.com/drive/folders/0B8kXrnobEVh9flBkdnNYR3V5dTNKQmFWNURXMUExZ0lFcngxeGI1WkdLT3p5Z1h0OTc2MjQ?resourcekey=0-l_xMCXpXAg7uU5xMZYuKXA)
+   [Small Testing Dataset](https://driv
+
+## Usage
+
+Follow these steps to set up and use the repository:
+
+1. **Download the Pretrained Model Weights**  
+   - Download the pretrained weights from the link provided above.
+   - Place the downloaded weights in the `checkpoint` folder within the project directory.
+
+2. **Download the Dataset**  
+   - Download the dataset, it has two a folder `test` and a file `test_pairs`.
+   - Place the `test` folder and the `test_pairs` file in the `dataset` folder of the project.
+
+3. **Extract Clothing Features**  
+   - Run the `featurize.py` file located in the `recommender_system` folder to extract features from the clothing items.
+   - Once the feature pickle file is generated, place it in the main project directory `FAHION-RECOMMENDATION-WITH-VIRTUAL-TRY-ON`.
+
+4. **Run the Streamlit Demo**  
+   - After setting up the weights, dataset, and feature file, run the following command to start the Streamlit app:
+     ```bash
+     streamlit run app.py
+     ```
+   - This will launch the demo where you can upload a clothing image, get recommendations, and perform a virtual try-on.
+## Model Source
+
+The code and pretrained weights for the virtual try-on model used in this project were adopted from the VITON-HD repository. VITON-HD is a high-quality virtual try-on model designed to generate realistic images of people wearing target clothing items.
+
+For more information and to explore the official implementation, please check out the original repository here:  
+[VITON-HD Official Repository](https://github.com/shadow2496/VITON-HD)
+e.google.com/drive/folders/0B8kXrnobEVh9flBkdnNYR3V5dTNKQmFWNURXMUExZ0lFcngxeGI1WkdLT3p5Z1h0OTc2MjQ?resourcekey=0-l_xMCXpXAg7uU5xMZYuKXA)
 
 Both datasets contain a variety of clothing items that can be used to test the recommendation and virtual try-on functionality.
 ## Pretrained Networks
@@ -89,8 +119,3 @@ The code and pretrained weights for the virtual try-on model used in this projec
 
 For more information and to explore the official implementation, please check out the original repository here:  
 [VITON-HD Official Repository](https://github.com/shadow2496/VITON-HD)
-
-## DEMO IMAGES
-![Recommended Dress](https://github.com/bilalsxadad1231231/FAHION-RECOMMENDATION-WITH-VIRTUAL-TRY-ON/blob/main/Pictures/RECOMMEND_DRESS.jpg)
-
-![Virtual Try-On Result](https://github.com/bilalsxadad1231231/FAHION-RECOMMENDATION-WITH-VIRTUAL-TRY-ON/blob/main/Pictures/TRY-ON.jpg)
